@@ -1,0 +1,99 @@
+/* TodoList.css */
+
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  background-color: #282c34;
+}
+
+.heading {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #1e62d7;
+  margin-top: 0;
+  border-radius: 8px 8px 0 0;
+  padding: 15px;
+  color: white;
+}
+
+.inputField {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.addButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.hrStyle {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border: none;
+  border-top: 1px solid #8f8686;
+}
+
+.taskList {
+  list-style: none;
+  padding: 0;
+}
+
+.taskItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #1a1a1a;
+}
+
+.taskItem span {
+  flex: 1;
+  color: white;
+  font-size: 16px;
+}
+
+.deleteButton,
+.markDone {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 8px;
+  padding: 5px;
+  margin-left: 8px;
+}
+
+.deleteButton:hover,
+.markDone:hover {
+  background-color: #c0392b;
+}
+
+.markAllDoneButton {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.markAllDoneButton:hover {
+  background-color: #2980b9;
+}
